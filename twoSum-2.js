@@ -1,3 +1,6 @@
-array.forEach ((value, key) => {
-    console.log(key + '=>' + value);
-})
+
+var twoSum = function(nums, target) {
+    array.forEach ((value, key) => {
+        console.log(key + '=>' + value);
+    })
+};
