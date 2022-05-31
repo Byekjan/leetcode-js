@@ -5,4 +5,4 @@ var twoSum = function(nums, target) {
     })
 };
 
-console.log("tests");
+console.log("janarbyek_byekjan@unimedia.co.jp");
