@@ -4,3 +4,5 @@ var twoSum = function(nums, target) {
         console.log(key + '=>' + value);
     })
 };
+
+console.log("tests");
