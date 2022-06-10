@@ -3,18 +3,18 @@
  * @return {boolean}
  */
 
-nums = [,2,3,1]
+nums = [1,2,3,1]
 
 var containsDuplicate = function(nums) {
-    map = {};
-    for(let i = 0; i < nums.length; i++ ) {
-        const value = nums[i];
-        map[value] = map[value] + 1 || 1;
-        if (map[value] >= 2)
-            return true;
+    if(nums.length === 1) return false
+    
+    let hash = {}
+    for(let num of nums){
+        if(num in hash) return true 
+            
+        hash[num] = true
     }
-
-    return false;
+    return false
 };
 
 console.log(containsDuplicate(nums));
