@@ -6,7 +6,7 @@
 s = "III"
 
 var romanToInt = function(s) {
-    let numerals = {
+    let sym = {
         I: 1,
         V: 5,
         X: 10,
